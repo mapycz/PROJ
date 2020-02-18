@@ -1,0 +1,16 @@
+Source: szn-libproj
+Maintainer: mapy.alfa <mapy.alfa@firma.seznam.cz>
+Homepage: https://gitlab.seznam.net/mapycz/proj
+Section: devel
+Priority: optional
+Standards-Version: 3.9.6
+Build-Depends:
+    debhelper (>= 9),
+    dh-autoreconf,
+    pkg-config (>= 0.19),
+
+Package: szn-libproj
+Section: devel
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Upstream PROJ lib
